@@ -1,0 +1,6 @@
+@media (max-width: 600px) {
+    .midlow{
+        grid-template-columns: 1fr;
+    }
+}
+
