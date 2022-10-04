@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="./assets/media.css">
     <link rel="stylesheet" href="./assets/header.css">
     <link rel="stylesheet" href="./assets/footer.css">
+
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
     <title>mysimtravel</title>
   </head>
   <body>
@@ -29,16 +33,16 @@
   </header>
 
     <div class="midlow">
-      <div class="text-midlow">
+      <div class="text-midlow" data-aos="zoom-in" data-aos-duration="2000">
         <h1 class="h1midlow">Revendas Autorizadas</h1>
         <p class="p-midlow">O mysimtravel conta com +700 representantes no Brasil e no mundo!<br>Encontre a loja mais próxima de você!</p>
       </div>
-      <div class="map-midlow">
-        <img class="map-img" src="./img/map.svg" alt="Mapa Revendas">
+      <div class="map-midlow" data-aos="zoom-in-up" data-aos-duration="2000">
+        <img class="map-img" src="./img/Mapa.svg" alt="Mapa Revendas">
       </div>
     </div>
 
-    <div class="info-mid">
+    <div class="info-mid" data-aos="fade-right" data-aos-duration="2000">
       <div class="info-text">
         <h1 class="info-h1">
           Compre online e  <span class="info-span">retire no Aeroporto</span>
@@ -49,7 +53,7 @@
     </div>
 
 
-    <div class="main-container">
+    <div class="main-container" data-aos="zoom-in" data-aos-duration="2000">
       <h1 class="h1-main">Aeroportos</h1>
 
       <div class="accordion">
@@ -366,5 +370,8 @@
       </nav>
   </footer>
   </body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script> AOS.init();</script>
+
   <script src="./js/main.js"></script>
 </html>
